@@ -260,7 +260,8 @@ background-color: #0f2027;
 color: #a0a0a0;
 text-align: center;
 padding: 20px;
-margin-top: 40px;
+border-radius: 12px;
+  margin-top: 40px;
 }
 
 .footer-container p {
