@@ -1,4 +1,186 @@
-<HTML>
-<h2> this is my resume</h2>
-<A HREF="EARTH.HTML">VISIT TO EARTH</A>
-</HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjali Kumari | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<!-- Google Fonts & FontAwesome Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+<div class="header-container">
+<h1>Anjali Kumari</h1>
+<p class="subtitle">BBA DBE Student at IIM Bangalore</p>
+<nav>
+<ul>
+<li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+<li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+<li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+<li><a href="#achievements"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<!-- Main Content -->
+<main class="main-container">
+
+<!-- Objective & About Me Section -->
+<section id="about" class="card">
+<h2><i class="fa-solid fa-bullseye"></i> Objective & About Me</h2>
+<div class="objective-box">
+<strong>Career Objective:</strong> To explore entrepreneurship in healthcare management.
+</div>
+<p class="about-text">
+I am a <strong>disciplined, visionary, creative, enthusiastic, and exploratory</strong> student currently pursuing my BBA in Digital Business and Entrepreneurship (DBE) at IIM Bangalore. Passionate about driving impact, combining business acumen with creative problem-solving.
+</p>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="card">
+<h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+<div class="timeline">
+<div class="timeline-item">
+<h3>BBA in Digital Business and Entrepreneurship (DBE)</h3>
+<span class="institution">IIM Bangalore</span>
+<p>Currently Pursuing</p>
+</div>
+<div class="timeline-item">
+<h3>Class 12th (CBSE)</h3>
+<span class="institution">Gothels Public School, Pirpainti</span>
+<p class="score">Score: 85%</p>
+</div>
+<div class="timeline-item">
+<h3>Class 10th (ICSE)</h3>
+<span class="institution">St. Xavier’s School, Sahibganj</span>
+<p class="score">Score: 95%</p>
+</div>
+</div>
+</section>
+
+<!-- Skills Table Section -->
+<section id="skills" class="card">
+<h2><i class="fa-solid fa-sliders"></i> Key Skills</h2>
+<p class="section-desc">Filter skills or hover over each to see proficiency details:</p>
+
+<!-- Filter buttons for interactivity -->
+<div class="filter-buttons">
+<button class="btn active" onclick="filterSkills('all')">All Skills</button>
+<button class="btn" onclick="filterSkills('Technical')">Technical</button>
+<button class="btn" onclick="filterSkills('Soft Skill')">Soft Skills</button>
+<button class="btn" onclick="filterSkills('Extracurricular')">Extracurricular</button>
+</div>
+
+<div class="table-responsive">
+<table id="skillsTable">
+<thead>
+<tr>
+<th>Skill</th>
+<th>Category</th>
+<th>Proficiency</th>
+</tr>
+</thead>
+<tbody>
+<tr data-category="Soft Skill">
+<td><strong>Public Speaking</strong></td>
+<td><span class="badge soft">Soft Skill</span></td>
+<td>
+<div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+</td>
+</tr>
+<tr data-category="Technical">
+<td><strong>Web Designing</strong></td>
+<td><span class="badge tech">Technical</span></td>
+<td>
+<div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+</td>
+</tr>
+<tr data-category="Extracurricular">
+<td><strong>Dance</strong></td>
+<td><span class="badge extra">Extracurricular</span></td>
+<td>
+<div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+</td>
+</tr>
+<tr data-category="Extracurricular">
+<td><strong>Sports</strong></td>
+<td><span class="badge extra">Extracurricular</span></td>
+<td>
+<div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="card">
+<h2><i class="fa-solid fa-award"></i> Achievements & Leadership</h2>
+<ul class="achievements-list">
+<li>
+<i class="fa-solid fa-medal gold"></i>
+<div>
+<strong>Olympiad Excellence:</strong> 1 Gold Medal & 3 Silver Medals in National Science Olympiad (NSO); 1 Bronze Medal in International Maths Olympiad (IMO).
+</div>
+</li>
+<li>
+<i class="fa-solid fa-microphone"></i>
+<div>
+<strong>Inter-Jesuit Elocution Contest:</strong> Stood 1st Place.
+</div>
+</li>
+<li>
+<i class="fa-solid fa-hand-holding-heart"></i>
+<div>
+<strong>Social Impact & Event Management:</strong> Organized and managed 4 interactive game stalls at an Annual School Fest in Jharkhand for underprivileged children, raising <strong>₹27,000</strong> and winning 1st prize.
+</div>
+</li>
+<li>
+<i class="fa-solid fa-pen-nib"></i>
+<div>
+<strong>Competitions:</strong> Winner in multiple essay writing and debate competitions.
+</div>
+</li>
+</ul>
+</section>
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+<div class="footer-container">
+<p>&copy; 2026 Anjali Kumari. All Rights Reserved.</p>
+<div class="social-links">
+<a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+<a href="#" title="Email"><i class="fa-solid fa-envelope"></i></a>
+</div>
+</div>
+</footer>
+
+<!-- JavaScript for Interactive Filtering -->
+<script>
+function filterSkills(category) {
+const rows = document.querySelectorAll('#skillsTable tbody tr');
+const buttons = document.querySelectorAll('.filter-buttons .btn');
+
+buttons.forEach(btn => btn.classList.remove('active'));
+event.target.classList.add('active');
+
+rows.forEach(row => {
+if (category === 'all' || row.getAttribute('data-category') === category) {
+row.style.display = '';
+} else {
+row.style.display = 'none';
+}
+});
+}
+</script>
+
+</body>
+</html>
